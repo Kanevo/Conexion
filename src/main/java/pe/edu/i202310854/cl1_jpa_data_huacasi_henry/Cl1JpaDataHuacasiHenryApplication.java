@@ -5,11 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-import pe.edu.i202310854.cl1_jpa_data_huacasi_henry.entity.Country;
 import pe.edu.i202310854.cl1_jpa_data_huacasi_henry.repository.CountryRepository;
 
-import java.util.List;
-import java.util.Optional;
 
 
 @SpringBootApplication
